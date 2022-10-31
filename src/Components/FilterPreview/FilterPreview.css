@@ -1,0 +1,62 @@
+.filter-preview{
+    margin-top: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+.meal-cards-container{
+    display: flex;
+   flex-wrap: wrap;
+    max-width: 70%;
+   overflow: hidden;
+  
+  
+   
+}
+.filter-menu{
+    height:fit-content;
+    width: 200px;
+   margin-right: 1em;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+
+   
+}
+.filter-menu ul{
+    
+    overflow: hidden;
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 0;
+  
+   
+}
+
+
+
+.filter-menu ul li{
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+ width: 100%;
+ padding-left: 1em;
+}
+
+.filter-menu ul li.active{
+ color: var(--main);
+ background-color: var(--light)
+}
+@media screen and (max-width:600px) {
+   .filter-menu{
+    width: 270px;
+   }
+   .meal-cards-container{
+    width: 80%;
+   }
+}

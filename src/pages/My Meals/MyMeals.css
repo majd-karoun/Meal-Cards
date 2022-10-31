@@ -1,0 +1,13 @@
+.my-meals-cards-container{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    
+
+
+  
+}
+.my-meals-cards-container h2{
+    color: grey;
+    margin-top: 30vh;
+}

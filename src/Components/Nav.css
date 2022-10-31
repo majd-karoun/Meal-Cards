@@ -1,0 +1,39 @@
+.nav{
+    background-color: black;
+    height: 80px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2em;
+}
+img{
+    width: 80px
+}
+.actions input{
+    background-color: var(--mid);
+    border: none;
+    border-radius: 7px;
+    height: 24px;
+    width: 350px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-inline: 1em;
+    color: white;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+}
+.actions a{
+    text-decoration: none;
+    color: inherit;
+
+}
+.actions a.active{
+    color: var(--main);
+}
+@media screen and (max-width: 600px) {
+    .logo{
+        display: none;
+    }
+}

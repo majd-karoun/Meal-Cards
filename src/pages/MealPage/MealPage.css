@@ -1,0 +1,55 @@
+.meal-page .actions{
+    margin-top: 1em;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1em;
+    
+}
+.recipe-ingredients{
+    width: 26%;
+    margin-left: 1em;
+   
+}
+
+.meal-page iframe{
+    width: 800px;
+    height: 375px;
+    
+  margin-bottom: 1em;
+}
+.recipe-ingredients h3{
+    
+    margin-left: 1em;
+}
+.recipe-ingredients li{
+    margin-bottom: 1em;
+}
+.meal-page .actions .button{
+    width: 270px;
+    height: 50px;
+}
+.meal-page p{
+    max-width: 800px;
+    line-break: auto;
+    line-height: 1.7em;
+    
+}
+
+@media screen and (max-width: 600px){
+    .meal-preview{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .meal-page iframe{
+        width: 90vw;
+        height: 300px;
+      margin-bottom: 1em;
+    }
+    .recipe-ingredients{
+        width: 90%;
+    }
+  
+}

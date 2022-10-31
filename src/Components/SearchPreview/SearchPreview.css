@@ -1,0 +1,12 @@
+.search-resutls-container{
+    display: flex;
+  
+   height: 100%;
+   margin-bottom: 3em;
+ 
+   overflow-x: auto;
+     width: 90%;
+    
+
+    
+}
