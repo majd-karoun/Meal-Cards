@@ -1,6 +1,6 @@
 # Meal Cards
 
-A delightful recipe discovery platform built with React, powered by TheMealDB API, and deployed on Firebase. Browse, search, and save your favorite recipes with an elegant card-based interface.
+A delightful recipe discovery platform built with React, powered by TheMealDB API. Browse, search, and save your favorite recipes with an elegant card-based interface.
 
 ## 🌐 Live Demo
 
