@@ -4,7 +4,7 @@ A delightful recipe discovery platform built with React, powered by TheMealDB AP
 
 ## 🌐 Live Demo
 
-Visit [Meal Cards](https://mealcards7.web.app)
+Visit [Meal Cards](https://mealcards7.web.app/discover)
 
 ## 📖 About
 
